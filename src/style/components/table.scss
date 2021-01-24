@@ -1,0 +1,15 @@
+.table {
+  width: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+  tbody > tr {
+    height: 50px;
+    > td {
+      text-align: center;
+    }
+  }
+}
+.table-search {
+  max-width: 350px;
+  align-self: flex-end;
+}

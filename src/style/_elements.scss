@@ -1,0 +1,21 @@
+html {
+  body {
+    height: 100vh;
+    background: #f1f1f1;
+    font-family: $font;
+    color: $primary;
+  }
+  .priority-Urgent{
+    background: $urgentColor
+  }
+  .priority-Regular{
+    background: $regularColor
+  }
+  .priority-Trivial{
+    background: $trivialColor
+  }
+  
+
+  
+}
+

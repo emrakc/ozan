@@ -1,0 +1,29 @@
+.form-field {
+  display: flex;
+  flex: 1;
+  padding:1em;
+  flex-direction: column;
+  position: relative;
+  .input {
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 0;
+    border-bottom: 2px solid $secondary;
+    font-weight: bold;
+    letter-spacing: 0.15em; 
+    &:focus,
+    &:active {
+      outline: 0;
+      border-bottom-color: red;
+    }
+  }
+  >.error{
+    font-size: 11px;
+    color:$errorColor;
+    position: absolute;
+    bottom: 1.5em;
+  }
+}
